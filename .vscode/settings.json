@@ -2,6 +2,14 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ],
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305",
+    ],
     "python.pythonPath": "/workspace/genetic-algo-playground/.venv/bin/python3",
     "python.testing.pytestArgs": [
         "knapsack"
