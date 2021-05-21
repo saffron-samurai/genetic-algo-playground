@@ -2,5 +2,11 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "/workspace/genetic-algo-playground/.venv/bin/python3"
+    "python.pythonPath": "/workspace/genetic-algo-playground/.venv/bin/python3",
+    "python.testing.pytestArgs": [
+        "knapsack"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
 }
